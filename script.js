@@ -1,0 +1,5 @@
+$(document).ready(function(){
+  $("#toggleAnimation").click(function(){
+    $(".animated-box").toggle();
+  });
+});

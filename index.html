@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Performance Test</title>
+
+  <!-- Google Font (Font Subsetting) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Web Performance Testing Page</h1>
+
+  <p><strong>1. Original JPEG Image:</strong></p>
+  <div class="image-container">
+    <img src="image/img1.jpg" alt="JPEG Image">
+  </div>
+
+  <p><strong>2. SVG Image:</strong></p>
+  <div class="image-container">
+    <svg width="200" height="200">
+      <circle cx="100" cy="100" r="80" fill="#007bff" />
+    </svg>
+  </div>
+
+  <p><strong>3. WebP Image:</strong></p>
+  <div class="image-container">
+    <img src="image/cherry.WebP" alt="WebP Image">
+  </div>
+
+  <p><strong>4. Animated Object:</strong></p>
+  <div class="animated-box"></div>
+  <button id="toggleAnimation">Toggle Animation</button>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- JS File -->
+  <script src="script.js"></script>
+</body>
+</html>
